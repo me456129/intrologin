@@ -9,7 +9,7 @@
 <body>
  <form method="post" action="validate.jsp">
             <center>
-            <table border="1" cellpadding="5" cellspacing="2">
+            <table border="1" cellpadding="3" cellspacing="4">
                 <thead>
                     <tr>
                         <th colspan="2">Login Here</th>
@@ -23,13 +23,7 @@
                     <tr>
                         <td>Password</td>
                         <td><input type="password" name="password" required/></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" align="center"><input type="submit" value="Login" />
-                            &nbsp;&nbsp;
-                            <input type="reset" value="Reset" />
-                        </td>                        
-                    </tr>                    
+                    </tr>              
                 </tbody>
             </table>
             </center>
